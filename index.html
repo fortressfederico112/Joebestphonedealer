@@ -1,0 +1,198 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1 maximun-scale=1">
+<title>jQuery Mobile Web App</title>
+<link rel="stylesheet" href="css/images/jquery.mobile.icons.min.css" type="text/css">
+<link href="css/images/mobileA.min.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/images/jquery.mobile.structure-1.4.5.min.css" type="text/css">
+<link rel="stylesheet" href="css/images/mystyle.css" type="text/css">
+<script src="jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="myscript 2.js"></script>
+<script type="text/javascript" src="analytics.js"></script>
+
+
+</head> 
+<body> 
+
+<div data-role="page" id="home" data-theme="a">
+	<div data-role="header" data-position="fixed" data-id="vs_header">
+		<h1>Home</h1>
+        <a href="#products" data-role="button" data-icon="arrow-l" data-iconpos="left">Products</a>
+        <a href="#contact_us" data-role="button" data-icon="arrow-r" data-iconpos="right" >Contact Us</a>
+	</div>
+	<div data-role="content" id="postlist" data-theme="a" class="ui-group-theme-a" >	
+		<ul data-role="listview">
+        <li><a href="#twitter" data-role="button" class="vs_tweeter" data-iconpos="right">Twitter</a></li>
+			<li><a href="#products" class="vs_products" data-iconpos="right" data-role="button">Products</a></li>
+            <li><a href="#contact_us" class="vs_contactus" data-iconpos="right" data-role="button">Contact Us</a></li>
+			
+		</ul>	
+        <div data-role="controlgroup" class="ui-controlgroup-horizontal">
+     <a href="http://joecastrobestdealer.weebly.com/store/c1/Featured_Products.html">
+   
+     <img class="ui-block-a" src="css/images/i_protect_all_main-500x500.jpg" width="70" height="70" alt="786-277-1010"/>
+     <img class="ui-block-b" src="css/images/invisible-shield.png" width="70" height="70" alt="786-277-1010"/>
+     <img class="ui-block-c" src="css/images/iphone 4S.PNG" width="70" height="70" alt="786-277-1010"/>
+     <img class="ui-block-a" src="css/images/iPhone 6.jpg" width="70" height="70" alt="786-277-1010"/>
+     <img class="ui-block-b" src="css/images/iphone.PNG" width="70" height="70" alt="786-277-1010"/>
+      <img class="ui-block-c" src="css/images/iphone-5s-xl.jpg" width="70" height="70" alt="786-277-1010"/>
+      <li><img class="ui-block-a" src="css/images/iphone-6-4.7in-100413465-gallery.jpg" width="70" height="70" alt="786-277-1010"/></li>
+      <img class="ui-block-b" src="css/images/screen protector.jpg" width="70" height="70" alt="786-277-1010"/>
+      <img class="ui-block-c" src="css/images/Tech21-Impact-Shield-Screen-Protector-With-Self-Heal-iPhone-6-1-600x600.jpg" width="70" height="70" alt=""/> 
+      <img class="ui-block-a" src="css/images/speck2.jpg" width="210" height="200" alt="786-277-1010"/></a>
+       </div>
+    </div>
+	<div data-role="footer" data-position="fixed" data-id="vs_footer" class="ui-bar">
+		<h4>Home</h4>
+        <a href="#products" data-role="button" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Products</a>
+        
+        <a href="#contact_us" data-role="button" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-right ui-icon-arrow-r">Contact Us</a>
+        <a id="listVideo" href="https://www.youtube.com/watch?v=CnYtWWDor2s" data-role="button" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-video">Video||<h2>Call at 786-277-1010</h2></a>
+        
+	</div>
+</div>
+
+<div data-role="page" id="products" data-theme="a">
+	<div data-role="header" data-position="fixed" data-id="vs_header">
+		<h1>Products</h1>
+        <a href="#home" data-icon="home" data-iconpos="left">Home</a>
+        <a href="#contact_us" data-icon="home" data-iconpos="left">Contact Us</a>
+	</div>
+	<div data-role="content">
+    <div data-role="controlgroup" class="ui-controlgroup-vertical">
+    <ul data-role="listview" id="myvideo">
+    
+        <li><a href="#twitter" data-role="button" class="vs_twitter" data-iconpos="right">Twitter</a></li>
+			<li><a href="#products" class="vs_products" data-iconpos="right" data-role="button">Products</a></li>
+            <li><a href="#contact_us" class="vs_contactus" data-iconpos="right" data-role="button">Contact Us</a></li>
+			
+			
+    <li><h1>Click on the image below</h1></li>
+        <li><a data-role="button" href="http://joecastrobestdealer.weebly.com/store/c1/Featured_Products.html"><img src="css/images/speck.jpg" width="100" height="100" alt=""/>
+        <img src="css/images/iphone.PNG" width="100" height="100" alt=""/><img src="css/images/invisible-shield.png" width="100" height="100" alt=""/><img src="css/images/speckgreen.png" width="100" height="100" alt=""/>
+        <h3>Joe Castro the best quality on sales</h3></a></li>
+        </ul>
+        </div>
+        <br>
+    <div data-role="collapsible-set">
+    <div data-role="collapsible">	
+		<h3>Call at (786)-277-1010</h3>
+        <p>We sell and fix phones</p>
+        </div>	
+      </div>	
+	</div>
+	<div data-role="footer" data-position="fixed" class="ui-bar" data-id="vs_footer">
+		<h4>Products</h4>
+        <a href="#home" data-role="button" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Home</a>
+        
+        <a href="#contact_us" data-role="button" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-right ui-icon-arrow-r">Contact Us</a>
+        <a id="listVideo" href="https://www.youtube.com/watch?v=impZ7krcPzI" data-role="button" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-video">Video||<h2>Call at 786-277-1010</h2></a>
+	</div>
+</div>
+
+<div data-role="page" id="contact_us" data-theme="a">
+	<div data-role="header" data-id="vs_header" data-position="fixed">
+		<h1>Contact Us</h1>
+        <a href="#home" data-role="button" data-icon="home" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Home</a> 
+        <a href="#products" data-role="button" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Products</a>
+	</div>
+	<div data-role="content">
+    <ul data-role="listview">
+        <li><a href="#twitter" data-role="button" class="vs_tweeter" data-iconpos="right">Twitter</a></li>
+			<li><a href="#products" class="vs_products" data-iconpos="right" data-role="button">Products</a></li>
+            <li><a href="#contact_us" class="vs_contactus" data-iconpos="right" data-role="button">Contact Us</a></li>
+			
+		</ul>	
+    <form action="MAILTO:jcastro@cwipcs.com" method="post" enctype="text/plain"  id="sendform" autocomplete="on">
+	  <div data-role="fieldcontain">
+	    <label for="FullName">Full Name:</label>
+	    <input name="FullName" type="text" autofocus  required id="FullName" autocomplete="on" value="FullName"/>
+        </div>	
+	    <div data-role="fieldcontain">
+	      <label for="email">Email:</label>
+	      <input name="email" type="email" autofocus id="email" autocomplete="on" value="Email"  />
+        </div>
+	    <div data-role="fieldcontain">
+	      <label for="number">Telephone:</label>
+	      <input name="number" type="text" autofocus id="number" autocomplete="on" value="Telephone"  />
+      </div>
+	    <div data-role="fieldcontain">
+	      <label for="textarea">Comments and tell us what 
+          products you need:</label>
+	      <textarea name="textarea" cols="40" rows="12" autofocus id="textarea" placeholder="tell us what products you need"></textarea>
+      </div>
+	    <input type="submit" autofocus formenctype="text/plain" value="submit" data-icon="forward" />
+	    </form>
+      <div data-role="collapsible">
+      <h3>Click to see the information below</h3>
+      <address>
+      <a href="http://joecastrobestdealer.weebly.com/contact.html"><p>We are ubicated:</p>
+      <p>742 SW  8st.</p>
+      <p>Miami Fl, 33130</p></a>
+      </address>
+      </div>  
+      
+	</div>
+	<div data-role="footer" data-position="fixed" data-id="vs_footer" class="ui-bar">
+		<h4>Contact Us</h4>
+         <a href="#home" data-role="button" data-icon="home" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Home</a> 
+        <a href="#products" data-role="button" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-arrow-l">Products</a>
+        <a id="listVideo" href="https://www.youtube.com/watch?v=1cAXHXqk_P0" data-role="button" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-video">Video||<h2>Call at 786-277-1010</h2></a>
+	</div>
+</div>
+<div id="twitter" data-role="page" data-theme="a">
+<div data-role="header" data-position="fixed" data-id="vs_header">
+<h1>Twitter</h1>
+<a href="#home" data-role="button" data-icon="home" data-iconpos="left">Home</a>
+<a href="#contact_us" data-icon="arrow-r" data-iconpos="right">Contact Us</a>
+</div>
+<div data-role="content" id="postlist tweetlist">
+<div data-role="controlgroup" class="ui-controlgroup-vertical">
+<ul data-role="listview">
+        <li><a href="#home" data-role="button" class="vs_home" data-iconpos="right">Home</a></li>
+			<li><a href="#products" class="vs_products" data-iconpos="right" data-role="button">Products</a></li>
+            <li><a href="#contact_us" class="vs_contactus" data-iconpos="right" data-role="button">Contact Us</a></li>
+			
+		</ul>
+        </div>
+        <div data-role="collapsible">
+        <h2>Click here</h2>
+        <a class="twitter-timeline" href="https://twitter.com/federico1127" data-widget-id="654006546913980416">Tweets by @federico1127</a>
+	
+  <a href="https://twitter.com/?lang=us"><img src="css/images/icons-png/twitter-icon.png" width="256" height="256" alt=""/></a>
+  </div>
+ 
+   </div><!-- end of content -->
+<div data-role="footer" class="ui-bar" data-position="fixed">
+<h1>Twitter</h1>
+<a href="#home" data-role="button" data-icon="home" data-iconpos="left">Home</a> 
+        <a href="#products" data-role="button" data-iconpos="right" data-icon="arrow-r">Products</a>
+        <a id="listVideo" href="https://www.youtube.com/watch?v=1cAXHXqk_P0" data-role="button" class=class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-video">Video||<h2>Call at 786-277-1010</h2></a>
+</div>
+</div>
+<script src="http://joecastrobestdealer.weebly.com/store/c1/Featured_Products.html/?json=recentstories&callback=lisPost" 
+type="text/javascript"></script>
+<script src="https://twitter.com/user_timeline/fortressfederico.json?count=2&callback=listTweets" type="text/javascript"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+</body>
+</html>
